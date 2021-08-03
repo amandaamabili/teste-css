@@ -1,0 +1,52 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #24382b;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(90deg, #649173, #DBD5A4);
+   
+}
+header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:baseline;
+    padding: 10px;
+    
+
+}
+header div img{
+    width: 20%;
+    margin-left: -10;
+}
+header div h1{
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+    margin-left: 0;
+}
+.tabela{
+    height: 400px;
+   padding: 15px;
+    margin: auto;
+    border: 2px solid #283b2e;
+}
+.tabela #base{
+    background-color:  #DBD5A4;
+    font-size: 20px;
+    font-style:unset;
+}
+.tabela tr{
+    font-size: 20px;
+    font-style: unset;
+}
+.tabela tr  #image{
+
+ padding-right: 100px;
+ background-color:#DBD5A4 ;
+}
